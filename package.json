@@ -1,0 +1,25 @@
+{
+  "name": "random-name-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.js --open",
+    "build": "webpack --config webpack.js"
+  },
+  "keywords": [],
+  "author": "Abhin Rustagi",
+  "license": "ISC",
+  "dependencies": {
+    "unique-names-generator": "^4.6.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3",
+    "webpack-merge": "^5.8.0"
+  }
+}
